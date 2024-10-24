@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    /* padding: 0; */
+    box-sizing: border-box;
+    outline: none;
+}
+.images{
+    padding-top: 100px;
+    width: 1000px;
+}
+.Button{
+    margin-top: 20px;
+    margin-left: 10px;
+    display: inline-block;
+    color: #fff;
+    background-color: #c0392b;
+    text-align: center;
+    padding: 15px 40px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    user-select: none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.Submit{
+    opacity: 1;
+    margin-top: 20px;
+    margin-left: 10px;
+    
+}
+
+img {
+    width:49%;
+}
+
+img.hue-rotate-filter {
+    filter: hue-rotate(90deg);
+}
+
+img.blur-filter {
+    filter: blur(4px);
+}
+
+img.grayscale-filter {
+    filter: grayscale(100%);
+}
+
+img.opacity-filter {
+    filter: opacity(50%);
+}
+
+img.saturate-filter {
+    filter: saturate(5);
+}
+
+img.sepia-filter {
+    filter: sepia(100%);
+}
+
+img.invert-filter {
+    filter: invert(100%);
+}
+
+img.shadow-filter {
+    filter: drop-shadow(8px 8px 10px blue);
+}
+
+img.brightness-filter {
+    filter: brightness(200%);
+}
+
+img.contrast-filter {
+    filter: contrast(200%);
+}
