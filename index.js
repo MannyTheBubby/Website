@@ -9,11 +9,6 @@ const Name = document.getElementById("Name");
 const Clear = document.getElementById('clearBtn'); 
 
 
-// inputElement.addEventListener("change", handlefiles, true)
-// function handlefiles() {
-//     const files = this.files
-//     console.log(files)
-// }   
 
 submitBtn.addEventListener("click", function() {
     const file = fileInput.files[0];
