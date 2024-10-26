@@ -1,5 +1,3 @@
-// Wait until the DOM is fully loaded
-
 const fileInput = document.getElementById('fileUpload');
 const submitBtn = document.getElementById('submitBtn'); 
 const inputElement = document.getElementById("input");
