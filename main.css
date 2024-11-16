@@ -28,6 +28,10 @@
     background-color: gray;
 }
 
+.functions:hover{
+    cursor: pointer;
+}
+
 .text{
     display: flex;
     align-items: center;

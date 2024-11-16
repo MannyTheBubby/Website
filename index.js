@@ -6,8 +6,6 @@ const Bits = document.getElementById("bits")
 const Name = document.getElementById("Name");
 const Clear = document.getElementById('clearBtn'); 
 
-
-
 submitBtn.addEventListener("click", function() {
     const file = fileInput.files[0];
     
